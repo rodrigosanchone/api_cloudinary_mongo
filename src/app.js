@@ -4,6 +4,7 @@ import morgan from "morgan";
 import cors from 'cors'
 import indexRouter  from "../routes/index.js"
 import productsRouter  from "../routes/products.js"
+/*-comentario*/
 const app= express()
 app.use(cors())
 app.use(express.json())
